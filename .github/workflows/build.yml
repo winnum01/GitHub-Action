@@ -1,0 +1,17 @@
+on: push
+on: push
+jobs:
+  first-job:
+  on: push
+jobs:
+  first-job:
+    steps:
+      - run: node --version
+      - run: npm --version
+      on: push
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - run: node --version
+      - run: npm --version
